@@ -1,0 +1,48 @@
+{
+  "name": "owl-tester",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "source": "src/index.ts",
+  "engines": {
+    "node": ">=14"
+  },
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
+    "start": "vite --host",
+    "moon": "node ../Moon/dist/tester.js",
+    "purgecss": "purgecss --config purgecss-config.cjs"
+  },
+  "dependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^3.1.0",
+    "purgecss": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0",
+    "typescript": "^4.8.4",
+    "vite": "^4.2.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "keywords": [],
+  "tags": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Owl3CM/Tester.git"
+  },
+  "homepage": "https://github.com/Owl3CM/Tester",
+  "bugs": {
+    "url": "https://github.com/Owl3CM/Tester/issues"
+  }
+}
